@@ -1,0 +1,62 @@
+body {
+    background-image: url("images/footer_lodyas.png");
+    font-family: monospace;
+    font-weight: 800;
+}
+h1 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 8px 21px;
+    font-weight: 900;
+    letter-spacing: -2px;
+    color: #F2BC94;
+    -webkit-text-stroke: 1px #30110D;
+}
+.container {
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #722620;
+    border-radius: 15px;
+    width: 360px;
+    box-shadow: 3px 3px 3px #141414;
+}
+#display-container {
+    color: #30110D;
+    background-color: #F2BC94;
+    border-radius: 15px;
+    margin: 0px 21px;
+    height: 60px;
+    box-shadow: 1px 1px 2px #585858;
+}
+#display {
+    margin: 3px 10px;
+    font-size: 50px;
+    text-align: center;
+    float: right;
+}
+#buttons {
+    margin: 15px;
+    height: 360px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: space-evenly;
+}
+#buttons button {
+    font-family: monospace;
+    background-color: #30110D;
+    color: #F2BC94;
+    margin: 7px;
+    border-radius: 15px;
+    font-size: 25px;
+    width: 20%;
+    flex-grow: 1;
+    outline:none;
+    box-shadow: 2px 1px 2px #050505;
+}
+#buttons button:hover {
+    cursor: pointer;
+}
+.operators {
+    background-color: rgb(113, 72, 173);
+}

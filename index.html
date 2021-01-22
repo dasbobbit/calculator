@@ -2,39 +2,43 @@
 <html>
 
 <head>
-	<title>Bobio Calculator</title>
-	<meta charset="UTF-8" />
+    <title>Bobio Calculator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="container-8" />
 	<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-	<h1>Bobio Calculator</h1>
-	<div class="content">
-		<div id="solid-colors">
-			<button class="colors" id="red"></button>
-			<button class="colors" id="green"></button>
-			<button class="colors" id="blue"></button>
-			<button class="colors" id="yellow"></button>
-		</div>
-		<div id="pixel-color">
-			<p>Pick Color:</p>
-			<input id="pixel-color-choice" type="color">
-		</div>
+    <div class="container">
+        <h1>BOBIO</h1>
+        <div id="display-container">
+            <a id="display"></a>
+        </div>
+		<div id="buttons">
+            <button class="operators1" id="sqrt">√</button>
+            <button class="operators" id="power">xⁿ</button>
+            <button class="operators1" id="negate">(-)</button>
+            <button class="operators1" id="clear">AC</button>
+            <button class="operands" id="7">7</button>
+            <button class="operands" id="8">8</button>
+            <button class="operands" id="9">9</button>
+            <button class="operators" id="divide">÷</button>
+            <button class="operands" id="4">4</button>
+            <button class="operands" id="5">5</button>
+            <button class="operands" id="6">6</button>
+			<button class="operators" id="multiply">×</button>
+            <button class="operands" id="1">1</button>
+            <button class="operands" id="2">2</button>
+            <button class="operands" id="3">3</button>
+			<button class="operators" id="minus">-</button>
+            <button class="operands" id="0">0</button>
+            <button class="operands1" id="dot">.</button>
+            <button class="operators1" id="equals">=</button>
+            <button class="operators" id="add">+</button>
+            
 	</div>
 
-	<div id="container"></div>
-	<div class="content">
-		<div id="slider-container">
-			<p>Grid Size</p>
-			<input id="dimensionBar" type="range" min="4" max="64" value="16">
-			<p id="dimensionValue">16</p>
-		</div>
-		<button id="reset-btn">Reset</button>
-	</div>
-
-
-
-	<script src="main.js"></script>
+	<script src="script.js"></script>
 </body>
 
 </html>
