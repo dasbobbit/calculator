@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Bobio Calculator</title>
+	<meta charset="UTF-8" />
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<h1>Bobio Calculator</h1>
+	<div class="content">
+		<div id="solid-colors">
+			<button class="colors" id="red"></button>
+			<button class="colors" id="green"></button>
+			<button class="colors" id="blue"></button>
+			<button class="colors" id="yellow"></button>
+		</div>
+		<div id="pixel-color">
+			<p>Pick Color:</p>
+			<input id="pixel-color-choice" type="color">
+		</div>
+	</div>
+
+	<div id="container"></div>
+	<div class="content">
+		<div id="slider-container">
+			<p>Grid Size</p>
+			<input id="dimensionBar" type="range" min="4" max="64" value="16">
+			<p id="dimensionValue">16</p>
+		</div>
+		<button id="reset-btn">Reset</button>
+	</div>
+
+
+
+	<script src="main.js"></script>
+</body>
+
+</html>
